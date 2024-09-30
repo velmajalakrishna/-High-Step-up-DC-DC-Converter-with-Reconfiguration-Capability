@@ -9,6 +9,7 @@ The proposed converter has the following benefits over existing topologies:
 The matlab code attached in file "bode-plot matlab code" help to derive linear version of converter.
 
 A excel file is attached (voltage-gain and voltage-stress graphs)to draw graphs of voltage-gain and volatge-stress versus duty cycle for various fault-tolerant  converter reported in literature.
+
 Working operation:
 The operation of the converter in continuous conduction mode (CCM), normal and with fault-tolerance operation were explained and necessary equations were derived. The CCM operation is verified through simulations results and hardware results for both normal and faulty operation.
  

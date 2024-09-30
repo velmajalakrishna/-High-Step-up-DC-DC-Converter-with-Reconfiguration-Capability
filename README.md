@@ -5,10 +5,13 @@ The proposed converter has the following benefits over existing topologies:
 2.	Low voltage stress across power switches is achieved in both normal and faulty operation of converter. 
 3.	The proposed converter topology provides uniform current sharing among power electronic switches, common grounding features, and also reduces the power handled by the power electronic devices using alternate paths, thereby improves the converter overall efficiency. 
 4.	Input current continuous, high efficiency (>96.5%), some additional advantages of the proposed converter.
+   
+The matlab code attached in file "bode-plot matlab code" help to derive linear version of converter.
+
+A excel file is attached (voltage-gain and voltage-stress graphs)to draw graphs of voltage-gain and volatge-stress versus duty cycle for various fault-tolerant  converter reported in literature.
 Working operation:
 The operation of the converter in continuous conduction mode (CCM), normal and with fault-tolerance operation were explained and necessary equations were derived. The CCM operation is verified through simulations results and hardware results for both normal and faulty operation.
-The matlab code attached in file "bode-plot matlab code" help to derive linear version of converter.
-A excel file is attached (voltage-gain and voltage-stress graphs)to draw graphs of voltage-gain and volatge-stress versus duty cycle for various fault-tolerant  converter reported in literature. 
+ 
 Specifications of proposed converter:
 L1 = 0.5mH L2 = 0.5mH switching frequency = 33 kHz C1 = 50uF C2 = 50uF C3 = 100uF 
 Power = 100 W output voltage = 100V
